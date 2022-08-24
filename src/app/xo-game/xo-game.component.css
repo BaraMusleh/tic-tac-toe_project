@@ -1,0 +1,33 @@
+.background {
+    padding-top: 1px;
+}
+
+
+.board {
+    margin: 0 auto;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* grid-template-rows: 33% 33% 33%; */
+    max-width: 300px;
+}
+
+.tile {
+    border: 1px solid black;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.buttons {
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+.Reset {
+    margin-top: 1%;
+    margin-left: 48.5%;
+}

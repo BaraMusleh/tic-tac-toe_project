@@ -1,0 +1,16 @@
+<body>
+    <main class="background">
+        <div class="board">
+            <div class="container" *ngFor="let val of squares; let i = index">
+                <button class="tile" (click)="makeMove(i)">{{ val }}</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-success" type="button" (click)="xTurn()">X Turn</button> |
+            <button class="btn btn-danger" type="button" (click)="oTurn()">O Turn</button>
+        </div>
+        <!-- <div class="Reset">
+            <button class="btn btn-primary" type="button" (click)="reset()">Reset</button>
+        </div> -->
+    </main>
+</body>
